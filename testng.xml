@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browserName" value="chrome"/>
+<parameter name="url" value="http://secure.smartbearsoftware.com/samples/TestComplete12/WebOrders/Login.aspx"/>
+	
+
+  <test thread-count="5" name="Test">
+  	<groups>
+		<define name="one time run">
+			
+				<include name="smoke"/>
+		</define>
+  	</groups>
+ 
+    <classes> 
+      <class name="testDemo1.AnnotationsWebOrders"/>
+    <!-- <methods>
+			<include name="setUp"/>
+					<include name="verifyHomePage"/>
+					<include name="viewAllOrders"/>
+					<include name="viewAllProducts"/>
+					<include name="placeOrder"/>
+
+      </methods>--> 
+      
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
