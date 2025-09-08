@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nopCommerce Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.nopcommerce.utils.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="NopCommerce Tests(failed)">
+    <classes>
+      <class name="com.nopcommerce.tests.ShippingMethodTest">
+        <methods>
+          <include name="testSelectShippingMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.nopcommerce.tests.ShippingMethodTest -->
+      <class name="com.nopcommerce.tests.VendorApplyTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="testVendorApplyPage"/>
+        </methods>
+      </class> <!-- com.nopcommerce.tests.VendorApplyTest -->
+      <class name="com.nopcommerce.tests.ConfirmOrderTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="testConfirmOrderAndContinue"/>
+        </methods>
+      </class> <!-- com.nopcommerce.tests.ConfirmOrderTest -->
+      <class name="com.nopcommerce.tests.PaymentMethodTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="testSelectCreditCardAndContinue"/>
+        </methods>
+      </class> <!-- com.nopcommerce.tests.PaymentMethodTest -->
+      <class name="com.nopcommerce.tests.PaymentInformationTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="testFillCreditCardPaymentInfo"/>
+        </methods>
+      </class> <!-- com.nopcommerce.tests.PaymentInformationTest -->
+      <class name="com.nopcommerce.tests.LoginTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="loginWithValidData"/>
+        </methods>
+      </class> <!-- com.nopcommerce.tests.LoginTest -->
+    </classes>
+  </test> <!-- NopCommerce Tests(failed) -->
+</suite> <!-- Failed suite [nopCommerce Suite] -->

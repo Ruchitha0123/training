@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="24" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-08T13:16:34 IST" name="nopCommerce Suite" finished-at="2025-09-08T13:22:39 IST" duration-ms="365503">
+    <groups>
+    </groups>
+    <test started-at="2025-09-08T13:16:34 IST" name="NopCommerce Tests" finished-at="2025-09-08T13:22:39 IST" duration-ms="365503">
+      <class name="com.nopcommerce.tests.ContactUsTest">
+        <test-method signature="testContactUsForm()[pri:20, instance:com.nopcommerce.tests.ContactUsTest@233795b6]" started-at="2025-09-08T13:21:42 IST" name="testContactUsForm" finished-at="2025-09-08T13:21:48 IST" duration-ms="6206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactUsForm -->
+      </class> <!-- com.nopcommerce.tests.ContactUsTest -->
+      <class name="com.nopcommerce.tests.PollTest">
+        <test-method signature="testVotePoll()[pri:13, instance:com.nopcommerce.tests.PollTest@31190526]" started-at="2025-09-08T13:20:03 IST" name="testVotePoll" finished-at="2025-09-08T13:20:07 IST" duration-ms="4048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVotePoll -->
+      </class> <!-- com.nopcommerce.tests.PollTest -->
+      <class name="com.nopcommerce.tests.RecentlyViewedProductsTest">
+        <test-method signature="testRecentlyViewedProductsPage()[pri:25, instance:com.nopcommerce.tests.RecentlyViewedProductsTest@6f03482]" started-at="2025-09-08T13:22:27 IST" name="testRecentlyViewedProductsPage" finished-at="2025-09-08T13:22:31 IST" duration-ms="3768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecentlyViewedProductsPage -->
+      </class> <!-- com.nopcommerce.tests.RecentlyViewedProductsTest -->
+      <class name="com.nopcommerce.tests.TopMenuTest">
+        <test-method signature="topMenuNavigationTest()[pri:0, instance:com.nopcommerce.tests.TopMenuTest@2f4948e4]" started-at="2025-09-08T13:17:18 IST" name="topMenuNavigationTest" finished-at="2025-09-08T13:17:52 IST" duration-ms="34485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- topMenuNavigationTest -->
+      </class> <!-- com.nopcommerce.tests.TopMenuTest -->
+      <class name="com.nopcommerce.tests.CommentsTest">
+        <test-method signature="testAddCommentAndScroll()[pri:18, instance:com.nopcommerce.tests.CommentsTest@77c2494c]" started-at="2025-09-08T13:21:31 IST" name="testAddCommentAndScroll" finished-at="2025-09-08T13:21:39 IST" duration-ms="7519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCommentAndScroll -->
+      </class> <!-- com.nopcommerce.tests.CommentsTest -->
+      <class name="com.nopcommerce.tests.AboutUsTest">
+        <test-method signature="testClickAboutUs()[pri:19, instance:com.nopcommerce.tests.AboutUsTest@f5958c9]" started-at="2025-09-08T13:21:39 IST" name="testClickAboutUs" finished-at="2025-09-08T13:21:42 IST" duration-ms="2877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickAboutUs -->
+      </class> <!-- com.nopcommerce.tests.AboutUsTest -->
+      <class name="com.nopcommerce.tests.PaymentMethodTest">
+        <test-method signature="testSelectCreditCardAndContinue()[pri:8, instance:com.nopcommerce.tests.PaymentMethodTest@682b2fa]" started-at="2025-09-08T13:18:40 IST" name="testSelectCreditCardAndContinue" finished-at="2025-09-08T13:18:57 IST" duration-ms="16652" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.id: paymentmethod_1 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: paymentmethod_1 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.nopcommerce.pages.PaymentMethodPage.selectPaymentMethod(PaymentMethodPage.java:28)
+at com.nopcommerce.tests.PaymentMethodTest.testSelectCreditCardAndContinue(PaymentMethodTest.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectCreditCardAndContinue -->
+      </class> <!-- com.nopcommerce.tests.PaymentMethodTest -->
+      <class name="com.nopcommerce.tests.ShippingMethodTest">
+        <test-method signature="testSelectShippingMethod()[pri:7, instance:com.nopcommerce.tests.ShippingMethodTest@139982de]" started-at="2025-09-08T13:18:38 IST" name="testSelectShippingMethod" finished-at="2025-09-08T13:18:40 IST" duration-ms="1194" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : City is required, Street address is required, Phone is required, Zip / postal code is required, State / province is required.}
+  (Session info: chrome=140.0.7339.80): City is required, Street address is required, Phone is required, Zip / postal code is required, State / province is required.
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a3c30aa692c1c25471c6e5c29747a7c, findElements {value=shippingoption, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : City is required, Street address is required, Phone is required, Zip / postal code is required, State / province is required.}
+  (Session info: chrome=140.0.7339.80): City is required, Street address is required, Phone is required, Zip / postal code is required, State / province is required.
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a3c30aa692c1c25471c6e5c29747a7c, findElements {value=shippingoption, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:221)
+at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:218)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at com.nopcommerce.pages.ShippingMethodPage.selectShippingOption(ShippingMethodPage.java:24)
+at com.nopcommerce.tests.ShippingMethodTest.testSelectShippingMethod(ShippingMethodTest.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectShippingMethod -->
+      </class> <!-- com.nopcommerce.tests.ShippingMethodTest -->
+      <class name="com.nopcommerce.tests.NewsTest">
+        <test-method signature="testNewsComment()[pri:16, instance:com.nopcommerce.tests.NewsTest@477b4cdf]" started-at="2025-09-08T13:21:19 IST" name="testNewsComment" finished-at="2025-09-08T13:21:31 IST" duration-ms="12617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewsComment -->
+      </class> <!-- com.nopcommerce.tests.NewsTest -->
+      <class name="com.nopcommerce.tests.VendorApplyDetailsTest">
+        <test-method signature="testVendorApplyForm()[pri:24, instance:com.nopcommerce.tests.VendorApplyDetailsTest@185a6e9]" started-at="2025-09-08T13:22:18 IST" name="testVendorApplyForm" finished-at="2025-09-08T13:22:27 IST" duration-ms="8530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVendorApplyForm -->
+      </class> <!-- com.nopcommerce.tests.VendorApplyDetailsTest -->
+      <class name="com.nopcommerce.tests.MyAccountTest">
+        <test-method signature="testMyAccountSaveAndGoHome()[pri:11, instance:com.nopcommerce.tests.MyAccountTest@229f66ed]" started-at="2025-09-08T13:19:48 IST" name="testMyAccountSaveAndGoHome" finished-at="2025-09-08T13:20:03 IST" duration-ms="14745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyAccountSaveAndGoHome -->
+      </class> <!-- com.nopcommerce.tests.MyAccountTest -->
+      <class name="com.nopcommerce.tests.CheckoutTest">
+        <test-method signature="testProceedToCheckout()[pri:5, instance:com.nopcommerce.tests.CheckoutTest@6989da5e]" started-at="2025-09-08T13:18:30 IST" name="testProceedToCheckout" finished-at="2025-09-08T13:18:37 IST" duration-ms="6923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProceedToCheckout -->
+      </class> <!-- com.nopcommerce.tests.CheckoutTest -->
+      <class name="com.nopcommerce.tests.ShoppingCartTest">
+        <test-method signature="testOpenShoppingCartAndTickTerms()[pri:4, instance:com.nopcommerce.tests.ShoppingCartTest@5aa9e4eb]" started-at="2025-09-08T13:18:20 IST" name="testOpenShoppingCartAndTickTerms" finished-at="2025-09-08T13:18:30 IST" duration-ms="10234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenShoppingCartAndTickTerms -->
+      </class> <!-- com.nopcommerce.tests.ShoppingCartTest -->
+      <class name="com.nopcommerce.tests.PaymentInformationTest">
+        <test-method signature="testFillCreditCardPaymentInfo()[pri:9, instance:com.nopcommerce.tests.PaymentInformationTest@217ed35e]" started-at="2025-09-08T13:18:57 IST" name="testFillCreditCardPaymentInfo" finished-at="2025-09-08T13:19:22 IST" duration-ms="25285" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: CreditCardType (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: CreditCardType (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.nopcommerce.pages.PaymentInformationPage.waitForPaymentFields(PaymentInformationPage.java:29)
+at com.nopcommerce.tests.PaymentInformationTest.testFillCreditCardPaymentInfo(PaymentInformationTest.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillCreditCardPaymentInfo -->
+      </class> <!-- com.nopcommerce.tests.PaymentInformationTest -->
+      <class name="com.nopcommerce.tests.CurrencyTest">
+        <test-method signature="testSelectCurrency()[pri:15, instance:com.nopcommerce.tests.CurrencyTest@3eb25e1a]" started-at="2025-09-08T13:21:04 IST" name="testSelectCurrency" finished-at="2025-09-08T13:21:19 IST" duration-ms="14479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectCurrency -->
+      </class> <!-- com.nopcommerce.tests.CurrencyTest -->
+      <class name="com.nopcommerce.tests.LoginTest">
+        <test-method signature="loginWithValidData()[pri:0, instance:com.nopcommerce.tests.LoginTest@6a78afa0]" started-at="2025-09-08T13:17:01 IST" name="loginWithValidData" finished-at="2025-09-08T13:17:17 IST" duration-ms="16693" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.className: ico-login (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.className: ico-login (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.nopcommerce.pages.LoginPage.openLoginPage(LoginPage.java:27)
+at com.nopcommerce.tests.LoginTest.loginWithValidData(LoginTest.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData -->
+      </class> <!-- com.nopcommerce.tests.LoginTest -->
+      <class name="com.nopcommerce.tests.VendorApplyTest">
+        <test-method signature="testVendorApplyPage()[pri:23, instance:com.nopcommerce.tests.VendorApplyTest@1e800aaa]" started-at="2025-09-08T13:21:59 IST" name="testVendorApplyPage" finished-at="2025-09-08T13:22:18 IST" duration-ms="19337" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: form#apply-vendor-form (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: form#apply-vendor-form (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.nopcommerce.pages.VendorApplyPage.waitForVendorApplyPage(VendorApplyPage.java:33)
+at com.nopcommerce.tests.VendorApplyTest.testVendorApplyPage(VendorApplyTest.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVendorApplyPage -->
+      </class> <!-- com.nopcommerce.tests.VendorApplyTest -->
+      <class name="com.nopcommerce.tests.WishlistTest">
+        <test-method signature="testOpenWishlistPage()[pri:3, instance:com.nopcommerce.tests.WishlistTest@10683d9d]" started-at="2025-09-08T13:18:01 IST" name="testOpenWishlistPage" finished-at="2025-09-08T13:18:07 IST" duration-ms="6253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenWishlistPage -->
+      </class> <!-- com.nopcommerce.tests.WishlistTest -->
+      <class name="com.nopcommerce.tests.LogoutTest">
+        <test-method signature="testLogout()[pri:26, instance:com.nopcommerce.tests.LogoutTest@9d5509a]" started-at="2025-09-08T13:22:31 IST" name="testLogout" finished-at="2025-09-08T13:22:39 IST" duration-ms="8585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+      </class> <!-- com.nopcommerce.tests.LogoutTest -->
+      <class name="com.nopcommerce.tests.BlogTest">
+        <test-method signature="testBlogPage()[pri:21, instance:com.nopcommerce.tests.BlogTest@3eb738bb]" started-at="2025-09-08T13:21:48 IST" name="testBlogPage" finished-at="2025-09-08T13:21:52 IST" duration-ms="3987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlogPage -->
+      </class> <!-- com.nopcommerce.tests.BlogTest -->
+      <class name="com.nopcommerce.tests.NewsletterTest">
+        <test-method signature="testSubscribeNewsletter()[pri:14, instance:com.nopcommerce.tests.NewsletterTest@6743e411]" started-at="2025-09-08T13:21:00 IST" name="testSubscribeNewsletter" finished-at="2025-09-08T13:21:04 IST" duration-ms="4023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubscribeNewsletter -->
+      </class> <!-- com.nopcommerce.tests.NewsletterTest -->
+      <class name="com.nopcommerce.tests.BillingAddressTest">
+        <test-method signature="testFillBillingAddressIfNeeded()[pri:6, instance:com.nopcommerce.tests.BillingAddressTest@385c9627]" started-at="2025-09-08T13:18:37 IST" name="testFillBillingAddressIfNeeded" finished-at="2025-09-08T13:18:38 IST" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillBillingAddressIfNeeded -->
+      </class> <!-- com.nopcommerce.tests.BillingAddressTest -->
+      <class name="com.nopcommerce.tests.SearchTest">
+        <test-method signature="testInvalidSearch_NoProductFound()[pri:1, instance:com.nopcommerce.tests.SearchTest@1f2586d6]" started-at="2025-09-08T13:17:52 IST" name="testInvalidSearch_NoProductFound" finished-at="2025-09-08T13:17:55 IST" duration-ms="2736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidSearch_NoProductFound -->
+        <test-method signature="testValidSearchAndClickProduct()[pri:2, instance:com.nopcommerce.tests.SearchTest@1f2586d6]" started-at="2025-09-08T13:17:55 IST" name="testValidSearchAndClickProduct" finished-at="2025-09-08T13:18:01 IST" duration-ms="5453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidSearchAndClickProduct -->
+      </class> <!-- com.nopcommerce.tests.SearchTest -->
+      <class name="com.nopcommerce.tests.ConfirmOrderTest">
+        <test-method signature="testConfirmOrderAndContinue()[pri:10, instance:com.nopcommerce.tests.ConfirmOrderTest@7dcf94f8]" started-at="2025-09-08T13:19:23 IST" name="testConfirmOrderAndContinue" finished-at="2025-09-08T13:19:48 IST" duration-ms="25302" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.cssSelector: button.confirm-order-next-step-button (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: button.confirm-order-next-step-button (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.6', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.nopcommerce.pages.ConfirmOrderPage.clickConfirm(ConfirmOrderPage.java:24)
+at com.nopcommerce.tests.ConfirmOrderTest.testConfirmOrderAndContinue(ConfirmOrderTest.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfirmOrderAndContinue -->
+      </class> <!-- com.nopcommerce.tests.ConfirmOrderTest -->
+      <class name="com.nopcommerce.tests.ProductTest">
+        <test-method signature="testAddProductToCart()[pri:1, instance:com.nopcommerce.tests.ProductTest@3fc2959f]" started-at="2025-09-08T13:18:07 IST" name="testAddProductToCart" finished-at="2025-09-08T13:18:14 IST" duration-ms="7435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method signature="testAddProductToWishlist()[pri:2, instance:com.nopcommerce.tests.ProductTest@3fc2959f]" started-at="2025-09-08T13:18:14 IST" name="testAddProductToWishlist" finished-at="2025-09-08T13:18:20 IST" duration-ms="5779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToWishlist -->
+      </class> <!-- com.nopcommerce.tests.ProductTest -->
+      <class name="com.nopcommerce.tests.SocialMediaTest">
+        <test-method signature="testSocialMediaLinks()[pri:14, instance:com.nopcommerce.tests.SocialMediaTest@662ac478]" started-at="2025-09-08T13:20:07 IST" name="testSocialMediaLinks" finished-at="2025-09-08T13:21:00 IST" duration-ms="53067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSocialMediaLinks -->
+      </class> <!-- com.nopcommerce.tests.SocialMediaTest -->
+      <class name="com.nopcommerce.tests.NewProductsTest">
+        <test-method signature="testNewProductsPage()[pri:22, instance:com.nopcommerce.tests.NewProductsTest@5bda8e08]" started-at="2025-09-08T13:21:52 IST" name="testNewProductsPage" finished-at="2025-09-08T13:21:59 IST" duration-ms="6778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewProductsPage -->
+      </class> <!-- com.nopcommerce.tests.NewProductsTest -->
+      <class name="com.nopcommerce.tests.RegisterTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.nopcommerce.tests.RegisterTest@5542c4ed]" started-at="2025-09-08T13:16:19 IST" name="beforeSuite" finished-at="2025-09-08T13:16:34 IST" duration-ms="14112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="registerWithValidData()[pri:0, instance:com.nopcommerce.tests.RegisterTest@5542c4ed]" started-at="2025-09-08T13:16:34 IST" name="registerWithValidData" finished-at="2025-09-08T13:17:01 IST" duration-ms="26823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithValidData -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.nopcommerce.tests.RegisterTest@5542c4ed]" started-at="2025-09-08T13:22:40 IST" name="afterSuite" finished-at="2025-09-08T13:22:40 IST" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.nopcommerce.tests.RegisterTest -->
+    </test> <!-- NopCommerce Tests -->
+  </suite> <!-- nopCommerce Suite -->
+</testng-results>

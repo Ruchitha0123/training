@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-nopCommerce_Suite" class="navigator-link">
+              <span class="suite-name border-failed">nopCommerce Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-nopCommerce_Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-nopCommerce_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-nopCommerce_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-nopCommerce_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-nopCommerce_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-nopCommerce_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-nopCommerce_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods, 6 failed,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-nopCommerce_Suite" class="hide-methods failed suite-nopCommerce_Suite"> (hide)</a> <!-- hide-methods failed suite-nopCommerce_Suite -->
+                      <a href="#" panel-name="suite-nopCommerce_Suite" class="show-methods failed suite-nopCommerce_Suite"> (show)</a> <!-- show-methods failed suite-nopCommerce_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-nopCommerce_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.LoginTest" class="method navigator-link" hash-for-method="loginWithValidData">loginWithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.ConfirmOrderTest" class="method navigator-link" hash-for-method="testConfirmOrderAndContinue">testConfirmOrderAndContinue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.PaymentInformationTest" class="method navigator-link" hash-for-method="testFillCreditCardPaymentInfo">testFillCreditCardPaymentInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.PaymentMethodTest" class="method navigator-link" hash-for-method="testSelectCreditCardAndContinue">testSelectCreditCardAndContinue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.ShippingMethodTest" class="method navigator-link" hash-for-method="testSelectShippingMethod">testSelectShippingMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.VendorApplyTest" class="method navigator-link" hash-for-method="testVendorApplyPage">testVendorApplyPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-nopCommerce_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-nopCommerce_Suite" class="hide-methods passed suite-nopCommerce_Suite"> (hide)</a> <!-- hide-methods passed suite-nopCommerce_Suite -->
+                      <a href="#" panel-name="suite-nopCommerce_Suite" class="show-methods passed suite-nopCommerce_Suite"> (show)</a> <!-- show-methods passed suite-nopCommerce_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-nopCommerce_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.RegisterTest" class="method navigator-link" hash-for-method="registerWithValidData">registerWithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.CommentsTest" class="method navigator-link" hash-for-method="testAddCommentAndScroll">testAddCommentAndScroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.ProductTest" class="method navigator-link" hash-for-method="testAddProductToCart">testAddProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.ProductTest" class="method navigator-link" hash-for-method="testAddProductToWishlist">testAddProductToWishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.BlogTest" class="method navigator-link" hash-for-method="testBlogPage">testBlogPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.AboutUsTest" class="method navigator-link" hash-for-method="testClickAboutUs">testClickAboutUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.ContactUsTest" class="method navigator-link" hash-for-method="testContactUsForm">testContactUsForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.BillingAddressTest" class="method navigator-link" hash-for-method="testFillBillingAddressIfNeeded">testFillBillingAddressIfNeeded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.SearchTest" class="method navigator-link" hash-for-method="testInvalidSearch_NoProductFound">testInvalidSearch_NoProductFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.LogoutTest" class="method navigator-link" hash-for-method="testLogout">testLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.MyAccountTest" class="method navigator-link" hash-for-method="testMyAccountSaveAndGoHome">testMyAccountSaveAndGoHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.NewProductsTest" class="method navigator-link" hash-for-method="testNewProductsPage">testNewProductsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.NewsTest" class="method navigator-link" hash-for-method="testNewsComment">testNewsComment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.ShoppingCartTest" class="method navigator-link" hash-for-method="testOpenShoppingCartAndTickTerms">testOpenShoppingCartAndTickTerms</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.WishlistTest" class="method navigator-link" hash-for-method="testOpenWishlistPage">testOpenWishlistPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.CheckoutTest" class="method navigator-link" hash-for-method="testProceedToCheckout">testProceedToCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.RecentlyViewedProductsTest" class="method navigator-link" hash-for-method="testRecentlyViewedProductsPage">testRecentlyViewedProductsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.CurrencyTest" class="method navigator-link" hash-for-method="testSelectCurrency">testSelectCurrency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.SocialMediaTest" class="method navigator-link" hash-for-method="testSocialMediaLinks">testSocialMediaLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.NewsletterTest" class="method navigator-link" hash-for-method="testSubscribeNewsletter">testSubscribeNewsletter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.SearchTest" class="method navigator-link" hash-for-method="testValidSearchAndClickProduct">testValidSearchAndClickProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.VendorApplyDetailsTest" class="method navigator-link" hash-for-method="testVendorApplyForm">testVendorApplyForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.PollTest" class="method navigator-link" hash-for-method="testVotePoll">testVotePoll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.tests.TopMenuTest" class="method navigator-link" hash-for-method="topMenuNavigationTest">topMenuNavigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-nopCommerce_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-nopCommerce_Suite" class="panel nopCommerce_Suite">
+          <div class="suite-nopCommerce_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nopcommerce.tests.ShippingMethodTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectShippingMethod">
+                  </a> <!-- testSelectShippingMethod -->
+                  <span class="method-name">testSelectShippingMethod</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : City is required, Street address is required, Phone is required, Zip / postal code is required, State / province is required.}
+  (Session info: chrome=140.0.7339.80): City is required, Street address is required, Phone is required, Zip / postal code is required, State / province is required.
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a3c30aa692c1c25471c6e5c29747a7c, findElements {value=shippingoption, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:221)
+	at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:218)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.nopcommerce.pages.ShippingMethodPage.selectShippingOption(ShippingMethodPage.java:24)
+	at com.nopcommerce.tests.ShippingMethodTest.testSelectShippingMethod(ShippingMethodTest.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-failed -->
+          <div class="suite-nopCommerce_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nopcommerce.tests.ConfirmOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConfirmOrderAndContinue">
+                  </a> <!-- testConfirmOrderAndContinue -->
+                  <span class="method-name">testConfirmOrderAndContinue</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: button.confirm-order-next-step-button (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.nopcommerce.pages.ConfirmOrderPage.clickConfirm(ConfirmOrderPage.java:24)
+	at com.nopcommerce.tests.ConfirmOrderTest.testConfirmOrderAndContinue(ConfirmOrderTest.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-failed -->
+          <div class="suite-nopCommerce_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nopcommerce.tests.VendorApplyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVendorApplyPage">
+                  </a> <!-- testVendorApplyPage -->
+                  <span class="method-name">testVendorApplyPage</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: form#apply-vendor-form (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.nopcommerce.pages.VendorApplyPage.waitForVendorApplyPage(VendorApplyPage.java:33)
+	at com.nopcommerce.tests.VendorApplyTest.testVendorApplyPage(VendorApplyTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-failed -->
+          <div class="suite-nopCommerce_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nopcommerce.tests.PaymentMethodTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectCreditCardAndContinue">
+                  </a> <!-- testSelectCreditCardAndContinue -->
+                  <span class="method-name">testSelectCreditCardAndContinue</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: paymentmethod_1 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.nopcommerce.pages.PaymentMethodPage.selectPaymentMethod(PaymentMethodPage.java:28)
+	at com.nopcommerce.tests.PaymentMethodTest.testSelectCreditCardAndContinue(PaymentMethodTest.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-failed -->
+          <div class="suite-nopCommerce_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nopcommerce.tests.PaymentInformationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFillCreditCardPaymentInfo">
+                  </a> <!-- testFillCreditCardPaymentInfo -->
+                  <span class="method-name">testFillCreditCardPaymentInfo</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: CreditCardType (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.nopcommerce.pages.PaymentInformationPage.waitForPaymentFields(PaymentInformationPage.java:29)
+	at com.nopcommerce.tests.PaymentInformationTest.testFillCreditCardPaymentInfo(PaymentInformationTest.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-failed -->
+          <div class="suite-nopCommerce_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nopcommerce.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidData">
+                  </a> <!-- loginWithValidData -->
+                  <span class="method-name">loginWithValidData</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.className: ico-login (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: /var/folders/r3/lcbvw8411bl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a3c30aa692c1c25471c6e5c29747a7c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.nopcommerce.pages.LoginPage.openLoginPage(LoginPage.java:27)
+	at com.nopcommerce.tests.LoginTest.loginWithValidData(LoginTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-failed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.BlogTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBlogPage">
+                  </a> <!-- testBlogPage -->
+                  <span class="method-name">testBlogPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProceedToCheckout">
+                  </a> <!-- testProceedToCheckout -->
+                  <span class="method-name">testProceedToCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.WishlistTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOpenWishlistPage">
+                  </a> <!-- testOpenWishlistPage -->
+                  <span class="method-name">testOpenWishlistPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.PollTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVotePoll">
+                  </a> <!-- testVotePoll -->
+                  <span class="method-name">testVotePoll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidSearch_NoProductFound">
+                  </a> <!-- testInvalidSearch_NoProductFound -->
+                  <span class="method-name">testInvalidSearch_NoProductFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidSearchAndClickProduct">
+                  </a> <!-- testValidSearchAndClickProduct -->
+                  <span class="method-name">testValidSearchAndClickProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.VendorApplyDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVendorApplyForm">
+                  </a> <!-- testVendorApplyForm -->
+                  <span class="method-name">testVendorApplyForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.CurrencyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectCurrency">
+                  </a> <!-- testSelectCurrency -->
+                  <span class="method-name">testSelectCurrency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.ShoppingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOpenShoppingCartAndTickTerms">
+                  </a> <!-- testOpenShoppingCartAndTickTerms -->
+                  <span class="method-name">testOpenShoppingCartAndTickTerms</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.MyAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyAccountSaveAndGoHome">
+                  </a> <!-- testMyAccountSaveAndGoHome -->
+                  <span class="method-name">testMyAccountSaveAndGoHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerWithValidData">
+                  </a> <!-- registerWithValidData -->
+                  <span class="method-name">registerWithValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.SocialMediaTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSocialMediaLinks">
+                  </a> <!-- testSocialMediaLinks -->
+                  <span class="method-name">testSocialMediaLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.ProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddProductToCart">
+                  </a> <!-- testAddProductToCart -->
+                  <span class="method-name">testAddProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddProductToWishlist">
+                  </a> <!-- testAddProductToWishlist -->
+                  <span class="method-name">testAddProductToWishlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.NewProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNewProductsPage">
+                  </a> <!-- testNewProductsPage -->
+                  <span class="method-name">testNewProductsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.BillingAddressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFillBillingAddressIfNeeded">
+                  </a> <!-- testFillBillingAddressIfNeeded -->
+                  <span class="method-name">testFillBillingAddressIfNeeded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.AboutUsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickAboutUs">
+                  </a> <!-- testClickAboutUs -->
+                  <span class="method-name">testClickAboutUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.NewsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNewsComment">
+                  </a> <!-- testNewsComment -->
+                  <span class="method-name">testNewsComment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.RecentlyViewedProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRecentlyViewedProductsPage">
+                  </a> <!-- testRecentlyViewedProductsPage -->
+                  <span class="method-name">testRecentlyViewedProductsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.CommentsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddCommentAndScroll">
+                  </a> <!-- testAddCommentAndScroll -->
+                  <span class="method-name">testAddCommentAndScroll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogout">
+                  </a> <!-- testLogout -->
+                  <span class="method-name">testLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.ContactUsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContactUsForm">
+                  </a> <!-- testContactUsForm -->
+                  <span class="method-name">testContactUsForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.TopMenuTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="topMenuNavigationTest">
+                  </a> <!-- topMenuNavigationTest -->
+                  <span class="method-name">topMenuNavigationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.tests.NewsletterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubscribeNewsletter">
+                  </a> <!-- testSubscribeNewsletter -->
+                  <span class="method-name">testSubscribeNewsletter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+        </div> <!-- panel nopCommerce_Suite -->
+        <div panel-name="test-xml-nopCommerce_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/ruchithareddy/Downloads/Capstone-Project1/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;nopCommerce Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.nopcommerce.utils.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;NopCommerce Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.RegisterTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.TopMenuTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.SearchTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.WishlistTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.ProductTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.WishlistTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.ShoppingCartTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.CheckoutTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.BillingAddressTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.ShippingMethodTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.PaymentMethodTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.PaymentInformationTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.ConfirmOrderTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.MyAccountTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.PollTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.SocialMediaTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.NewsletterTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.CurrencyTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.NewsTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.CommentsTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.AboutUsTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.ContactUsTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.BlogTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.NewProductsTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.VendorApplyTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.VendorApplyDetailsTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.RecentlyViewedProductsTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.tests.LogoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NopCommerce Tests --&gt;
+&lt;/suite&gt; &lt;!-- nopCommerce Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-nopCommerce_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for nopCommerce Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">NopCommerce Tests (29 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-nopCommerce_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for nopCommerce Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-nopCommerce_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for nopCommerce Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_nopCommerce_Suite');
+function tableData_nopCommerce_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSocialMediaLinks')
+data.setCell(0, 2, 'com.nopcommerce.tests.SocialMediaTest')
+data.setCell(0, 3, 53067);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'topMenuNavigationTest')
+data.setCell(1, 2, 'com.nopcommerce.tests.TopMenuTest')
+data.setCell(1, 3, 34485);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'registerWithValidData')
+data.setCell(2, 2, 'com.nopcommerce.tests.RegisterTest')
+data.setCell(2, 3, 26823);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testConfirmOrderAndContinue')
+data.setCell(3, 2, 'com.nopcommerce.tests.ConfirmOrderTest')
+data.setCell(3, 3, 25302);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testFillCreditCardPaymentInfo')
+data.setCell(4, 2, 'com.nopcommerce.tests.PaymentInformationTest')
+data.setCell(4, 3, 25285);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testVendorApplyPage')
+data.setCell(5, 2, 'com.nopcommerce.tests.VendorApplyTest')
+data.setCell(5, 3, 19337);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginWithValidData')
+data.setCell(6, 2, 'com.nopcommerce.tests.LoginTest')
+data.setCell(6, 3, 16693);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSelectCreditCardAndContinue')
+data.setCell(7, 2, 'com.nopcommerce.tests.PaymentMethodTest')
+data.setCell(7, 3, 16652);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testMyAccountSaveAndGoHome')
+data.setCell(8, 2, 'com.nopcommerce.tests.MyAccountTest')
+data.setCell(8, 3, 14745);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testSelectCurrency')
+data.setCell(9, 2, 'com.nopcommerce.tests.CurrencyTest')
+data.setCell(9, 3, 14479);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testNewsComment')
+data.setCell(10, 2, 'com.nopcommerce.tests.NewsTest')
+data.setCell(10, 3, 12617);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testOpenShoppingCartAndTickTerms')
+data.setCell(11, 2, 'com.nopcommerce.tests.ShoppingCartTest')
+data.setCell(11, 3, 10234);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testLogout')
+data.setCell(12, 2, 'com.nopcommerce.tests.LogoutTest')
+data.setCell(12, 3, 8585);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testVendorApplyForm')
+data.setCell(13, 2, 'com.nopcommerce.tests.VendorApplyDetailsTest')
+data.setCell(13, 3, 8530);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testAddCommentAndScroll')
+data.setCell(14, 2, 'com.nopcommerce.tests.CommentsTest')
+data.setCell(14, 3, 7519);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testAddProductToCart')
+data.setCell(15, 2, 'com.nopcommerce.tests.ProductTest')
+data.setCell(15, 3, 7435);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testProceedToCheckout')
+data.setCell(16, 2, 'com.nopcommerce.tests.CheckoutTest')
+data.setCell(16, 3, 6923);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testNewProductsPage')
+data.setCell(17, 2, 'com.nopcommerce.tests.NewProductsTest')
+data.setCell(17, 3, 6778);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testOpenWishlistPage')
+data.setCell(18, 2, 'com.nopcommerce.tests.WishlistTest')
+data.setCell(18, 3, 6253);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testContactUsForm')
+data.setCell(19, 2, 'com.nopcommerce.tests.ContactUsTest')
+data.setCell(19, 3, 6206);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testAddProductToWishlist')
+data.setCell(20, 2, 'com.nopcommerce.tests.ProductTest')
+data.setCell(20, 3, 5779);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testValidSearchAndClickProduct')
+data.setCell(21, 2, 'com.nopcommerce.tests.SearchTest')
+data.setCell(21, 3, 5453);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testVotePoll')
+data.setCell(22, 2, 'com.nopcommerce.tests.PollTest')
+data.setCell(22, 3, 4048);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testSubscribeNewsletter')
+data.setCell(23, 2, 'com.nopcommerce.tests.NewsletterTest')
+data.setCell(23, 3, 4023);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testBlogPage')
+data.setCell(24, 2, 'com.nopcommerce.tests.BlogTest')
+data.setCell(24, 3, 3987);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testRecentlyViewedProductsPage')
+data.setCell(25, 2, 'com.nopcommerce.tests.RecentlyViewedProductsTest')
+data.setCell(25, 3, 3768);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testClickAboutUs')
+data.setCell(26, 2, 'com.nopcommerce.tests.AboutUsTest')
+data.setCell(26, 3, 2877);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testInvalidSearch_NoProductFound')
+data.setCell(27, 2, 'com.nopcommerce.tests.SearchTest')
+data.setCell(27, 3, 2736);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testSelectShippingMethod')
+data.setCell(28, 2, 'com.nopcommerce.tests.ShippingMethodTest')
+data.setCell(28, 3, 1194);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testFillBillingAddressIfNeeded')
+data.setCell(29, 2, 'com.nopcommerce.tests.BillingAddressTest')
+data.setCell(29, 3, 1105);
+window.suiteTableData['nopCommerce_Suite']= { tableData: data, tableDiv: 'times-div-nopCommerce_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-nopCommerce_Suite">
+              </div> <!-- times-div-nopCommerce_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-nopCommerce_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for nopCommerce Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-nopCommerce_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">54 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.BlogTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.WishlistTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.CheckoutTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.ShippingMethodTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.PollTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.PaymentMethodTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.SearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.VendorApplyDetailsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.MyAccountTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.SocialMediaTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.BillingAddressTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.RecentlyViewedProductsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.ContactUsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.TopMenuTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.NewsletterTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.ShoppingCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.CurrencyTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.PaymentInformationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.ProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.NewProductsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.AboutUsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.NewsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.VendorApplyTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.ConfirmOrderTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.CommentsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.tests.LogoutTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-nopCommerce_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">registerWithValidData</span>
+                <span class="method-start">14241 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginWithValidData</span>
+                <span class="method-start">41112 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.TopMenuTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">topMenuNavigationTest</span>
+                <span class="method-start">58369 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.SearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testInvalidSearch_NoProductFound</span>
+                <span class="method-start">92881 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidSearchAndClickProduct</span>
+                <span class="method-start">95619 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.WishlistTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOpenWishlistPage</span>
+                <span class="method-start">101081 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.ProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddProductToCart</span>
+                <span class="method-start">107349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddProductToWishlist</span>
+                <span class="method-start">114793 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.ShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOpenShoppingCartAndTickTerms</span>
+                <span class="method-start">120580 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testProceedToCheckout</span>
+                <span class="method-start">130837 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.BillingAddressTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFillBillingAddressIfNeeded</span>
+                <span class="method-start">137767 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.ShippingMethodTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSelectShippingMethod</span>
+                <span class="method-start">138875 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.PaymentMethodTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSelectCreditCardAndContinue</span>
+                <span class="method-start">140484 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.PaymentInformationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFillCreditCardPaymentInfo</span>
+                <span class="method-start">157458 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.ConfirmOrderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testConfirmOrderAndContinue</span>
+                <span class="method-start">183052 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.MyAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMyAccountSaveAndGoHome</span>
+                <span class="method-start">208623 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.PollTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testVotePoll</span>
+                <span class="method-start">223385 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.SocialMediaTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSocialMediaLinks</span>
+                <span class="method-start">227453 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.NewsletterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSubscribeNewsletter</span>
+                <span class="method-start">280539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.CurrencyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSelectCurrency</span>
+                <span class="method-start">284568 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.NewsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNewsComment</span>
+                <span class="method-start">299063 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.CommentsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddCommentAndScroll</span>
+                <span class="method-start">311693 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.AboutUsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testClickAboutUs</span>
+                <span class="method-start">319225 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.ContactUsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testContactUsForm</span>
+                <span class="method-start">322110 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.BlogTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testBlogPage</span>
+                <span class="method-start">328329 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.NewProductsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNewProductsPage</span>
+                <span class="method-start">332326 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.VendorApplyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testVendorApplyPage</span>
+                <span class="method-start">339119 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.VendorApplyDetailsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testVendorApplyForm</span>
+                <span class="method-start">358703 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.RecentlyViewedProductsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRecentlyViewedProductsPage</span>
+                <span class="method-start">367247 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLogout</span>
+                <span class="method-start">371021 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.tests.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">380412 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
