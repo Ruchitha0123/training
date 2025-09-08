@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="nopCommerce Suite" parallel="false" verbose="1">
+    <listeners>
+        <listener class-name="com.nopcommerce.utils.TestListener"/>
+    </listeners>
+
+    <test name="NopCommerce Tests" preserve-order="true">
+        <classes>
+            <!-- Put login first so session established -->
+            <class name="com.nopcommerce.tests.RegisterTest"/>
+            <class name="com.nopcommerce.tests.LoginTest"/>
+            <class name="com.nopcommerce.tests.TopMenuTest"/>
+            <class name="com.nopcommerce.tests.SearchTest"/>
+            <class name="com.nopcommerce.tests.WishlistTest"/>
+            <class name="com.nopcommerce.tests.ProductTest"/>
+            <class name="com.nopcommerce.tests.WishlistTest"/> 
+            <class name="com.nopcommerce.tests.ShoppingCartTest"/>
+            <class name="com.nopcommerce.tests.CheckoutTest"/>
+            <class name="com.nopcommerce.tests.BillingAddressTest"/>
+            <class name="com.nopcommerce.tests.ShippingMethodTest"/>
+            <class name="com.nopcommerce.tests.PaymentMethodTest"/>
+            <class name="com.nopcommerce.tests.PaymentInformationTest"/>
+            <class name="com.nopcommerce.tests.ConfirmOrderTest"/>
+            <class name="com.nopcommerce.tests.MyAccountTest"/>
+            <class name="com.nopcommerce.tests.PollTest"/>
+            <class name="com.nopcommerce.tests.SocialMediaTest"/>
+            <class name="com.nopcommerce.tests.NewsletterTest"/>
+            <class name="com.nopcommerce.tests.CurrencyTest"/>
+            <class name="com.nopcommerce.tests.NewsTest"/>
+            <class name="com.nopcommerce.tests.CommentsTest"/>
+            <class name="com.nopcommerce.tests.AboutUsTest"/>
+            <class name="com.nopcommerce.tests.ContactUsTest"/>
+            <class name="com.nopcommerce.tests.BlogTest"/>
+            <class name="com.nopcommerce.tests.NewProductsTest"/>
+            <class name="com.nopcommerce.tests.VendorApplyTest"/>
+            <class name="com.nopcommerce.tests.VendorApplyDetailsTest"/>
+            <class name="com.nopcommerce.tests.RecentlyViewedProductsTest"/>
+            <class name="com.nopcommerce.tests.LogoutTest"/>
+            
+            
+            
+            <!-- add other tests or your AllTests class here -->
+        </classes>
+    </test>
+</suite>
